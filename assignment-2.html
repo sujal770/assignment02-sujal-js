@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Image Gallery | COMP1073 Client-Side JavaScript</title>
+	<link rel="stylesheet" href="css/gallery.css">
+</head>
+<style>
+	ul li{
+		list-style:none;
+		margin: 10px;
+	}
+	ul img:hover{
+		opacity: 0.8;
+		cursor: pointer;
+		transform: scale(1.02);
+
+	}
+</style>
+<body>
+	<h1>Image Gallery</h1>
+	<section id="gallery">
+		<figure>
+			<img src="images/flowers-pink-large.jpg" alt="" width="1200" height="800" />
+			<figcaption>The Figure Cpation will be appear here</figcaption>
+		</figure>
+		<ul>
+			<li><img src="images/flowers-pink-small.jpg" alt="Pink flower" width="240" height="160" /></li>
+			<li><img src="images/flowers-purple-small.jpg" alt="Purple flower" width="240" height="160" /></li>
+			<li><img src="images/flowers-red-small.jpg" alt="Red Flower" width="240" height="160" /></li>
+			<li><img src="images/flowers-white-small.jpg" alt="White Flower" width="240" height="160" /></li>
+			<li><img src="images/flowers-yellow-small.jpg" alt="Yellow Flower" width="240" height="160" /></li>
+		</ul>
+	</section>
+	<script src="js/gallery.js"></script>
+	
+	
+</body>
+</html>
